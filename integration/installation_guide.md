@@ -8,12 +8,12 @@ This integration will allow users to sign in by verifying ownership of an NFT.
 
 Register your client by sending a POST to <https://login.vulalabs.com/oauth/register> with the body:
 
-{
+***{
 "email": "example@email.com",
 "name": "example",
 "redirectUris": ["https://example.com/oauth/callback"],
 "homepageUri": "https://example.com"
-}
+}***
 
 In the response will be the Client ID and Client Secret to use in the Connection setup steps below.
 
