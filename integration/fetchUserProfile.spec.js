@@ -18,7 +18,7 @@ describe("fetchUserProfile", () => {
     });
 
     it("should get the correct endpoint", () => {
-      expect(global.request.get.mock.calls[0][0].url).toEqual("USERINFO_URL");
+      expect(global.request.get.mock.calls[0][0].url).toEqual("https://login.vulalabs.com/secure");
     });
 
     it("should use the passed-in access token", () => {
