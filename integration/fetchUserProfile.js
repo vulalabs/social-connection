@@ -1,5 +1,5 @@
 /* globals request */
-function fetchUserProfile(accessToken, context, callback) {
+module.exports = function fetchUserProfile(accessToken, context, callback) {
   request.get(
     {
       url: "https://login.vulalabs.com/secure",
