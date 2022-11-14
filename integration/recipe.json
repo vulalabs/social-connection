@@ -1,10 +1,10 @@
 {
-  "authorizationURL": "https://example.com/oauth/authorize",
-  "tokenURL": "https://example.com/oauth/token",
+  "authorizationURL": "https://oauth.vulalabs.com/",
+  "tokenURL": "https://login.vulalabs.com/oauth/token",
   "permissions": [
     {
-      "scope": "example",
-      "label": "Example Permission",
+      "scope": "primary",
+      "label": "Primary Permission",
       "required": false,
       "default": true
     }

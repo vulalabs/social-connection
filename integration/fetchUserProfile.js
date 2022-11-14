@@ -1,8 +1,8 @@
 /* globals request */
-module.exports = function fetchUserProfile(accessToken, context, callback) {
+function fetchUserProfile(accessToken, context, callback) {
   request.get(
     {
-      url: "USERINFO_URL",
+      url: "https://login.vulalabs.com/secure",
       headers: {
         Authorization: `Bearer ${accessToken}`,
       },
@@ -30,4 +30,4 @@ module.exports = function fetchUserProfile(accessToken, context, callback) {
       return callback(null, profile);
     }
   );
-};
+}
