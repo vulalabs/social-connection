@@ -20,7 +20,7 @@ module.exports = function fetchUserProfile(accessToken, context, callback) {
       try {
         bodyParsed = JSON.parse(body);
       } catch (jsonError) {
-        return callback(new Error(body));
+        return callback(new Error(`Failed JSON parsing for user profile response.`));
       }
 
       const profile = {
