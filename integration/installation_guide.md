@@ -6,7 +6,7 @@ This integration will allow users to sign in by verifying ownership of an NFT.
 
 ## Set up Sign in with Vula Labs
 
-Fill in the form at ```https://vulalabs.com/integrate``` or register your client by sending a ```POST``` to ```https://login.vulalabs.com/oauth/register``` with the body:
+Fill in the form on our [website](https://vulalabs.com/integrate) or register your client by sending a ```POST``` to ```https://login.vulalabs.com/oauth/register``` with the body:
 ```
 {
 "email": "example@email.com",
